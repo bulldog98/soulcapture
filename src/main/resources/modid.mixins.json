@@ -1,11 +1,11 @@
 {
   "required": true,
-  "package": "net.fabricmc.example.mixin",
+  "package": "de.bulldog98.event.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "MixinLivingEntity"
   ],
   "client": [
-    "ExampleMixin"
   ],
   "injectors": {
     "defaultRequire": 1
