@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "soulcapture",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Soulcapture",
+  "description": "This mod provides an enchantment that allows mobs to drop their spawn eggs",
   "authors": [
-    "Me!"
+    "soulcapture@bulldog98.de"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/bulldog98/testmod",
+    "sources": "https://github.com/bulldog98/testmod"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "GPL-3",
+  "icon": "assets/soulcapture/icon.png",
 
   "environment": "*",
   "entrypoints": {
@@ -23,7 +23,7 @@
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "soulcapture.mixins.json"
   ],
   "depends": {
     "fabricloader": ">=0.8.7",
