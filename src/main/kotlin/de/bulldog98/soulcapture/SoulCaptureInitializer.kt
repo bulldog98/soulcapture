@@ -1,4 +1,4 @@
-package net.fabricmc.example
+package de.bulldog98.soulcapture
 
 import de.bulldog98.event.api.KilledByCallback
 import net.fabricmc.api.ModInitializer
@@ -34,6 +34,7 @@ class SoulCaptureInitializer : ModInitializer {
     }
 
     override fun onInitialize() {
+        println("soul capture initializing")
         KilledByCallback.EVENT.register(this::handleSoulCapture)
     }
 }

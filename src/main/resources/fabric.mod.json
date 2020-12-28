@@ -19,7 +19,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleModKt::init"
+      {
+        "adapter": "kotlin",
+        "value": "de.bulldog98.soulcapture.SoulCaptureInitializer"
+      }
     ]
   },
   "mixins": [

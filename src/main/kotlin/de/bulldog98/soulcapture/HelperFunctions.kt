@@ -1,4 +1,4 @@
-package net.fabricmc.example
+package de.bulldog98.soulcapture
 
 import net.minecraft.util.Identifier
 
