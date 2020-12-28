@@ -15,7 +15,7 @@ import net.minecraft.util.registry.Registry
 class SoulCaptureInitializer : ModInitializer {
     private val SOUL_CAPTURE: Enchantment = Registry.register(
         Registry.ENCHANTMENT,
-        Identifier("tutorial", "soul_capture"),
+        Identifier("soulcapture", "soul_capture"),
         SoulCaptureEnchantment()
     )
 
