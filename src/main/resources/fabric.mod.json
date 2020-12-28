@@ -3,14 +3,14 @@
   "id": "soulcapture",
   "version": "${version}",
 
-  "name": "Soulcapture",
+  "name": "Soul Capture",
   "description": "This mod provides an enchantment that allows mobs to drop their spawn eggs",
   "authors": [
     "soulcapture@bulldog98.de"
   ],
   "contact": {
-    "homepage": "https://github.com/bulldog98/testmod",
-    "sources": "https://github.com/bulldog98/testmod"
+    "homepage": "https://github.com/bulldog98/soulcapture",
+    "sources": "https://github.com/bulldog98/soulcapture"
   },
 
   "license": "GPL-3",

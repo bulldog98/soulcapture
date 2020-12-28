@@ -34,7 +34,6 @@ class SoulCaptureInitializer : ModInitializer {
     }
 
     override fun onInitialize() {
-        println("Here init for soul capture")
         KilledByCallback.EVENT.register(this::handleSoulCapture)
     }
 }
