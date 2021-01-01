@@ -24,9 +24,11 @@ class SoulCaptureInitializer : ModInitializer {
             val soulCaptureLevel = EnchantmentHelper.getLevel(SOUL_CAPTURE, adversary.mainHandStack)
             val randomNumber = killedEntity.entityWorld.random.nextInt(1001) - 1
             if (randomNumber < soulCaptureLevel) {
-                killedEntity.dropItem(ItemConvertible {
-                    return@ItemConvertible SpawnEggItem.forEntity(killedEntity.type)
-                })
+                killedEntity.dropItem(
+                    ItemConvertible {
+                        return@ItemConvertible SpawnEggItem.forEntity(killedEntity.type)
+                    }
+                )
             }
             return ActionResult.SUCCESS
         }
