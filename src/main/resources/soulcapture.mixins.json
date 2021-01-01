@@ -3,7 +3,6 @@
   "package": "de.bulldog98.event.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "MixinLivingEntity"
   ],
   "client": [
   ],
