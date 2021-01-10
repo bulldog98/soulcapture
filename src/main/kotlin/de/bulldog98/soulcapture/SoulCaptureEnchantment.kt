@@ -20,9 +20,10 @@ class SoulCaptureEnchantment : Enchantment(
 ) {
     override fun getMinLevel(): Int = 1
     override fun getMaxLevel(): Int = 1
-    override fun getMinPower(level: Int): Int {
-        return super.getMinPower(level)
-    }
+    override fun getMinPower(level: Int): Int =
+        15
+    override fun getMaxPower(level: Int): Int =
+        super.getMinPower(level) + 50
 
     fun handleEnchantment(world: ServerWorld?, attacker: Entity?, killed: LivingEntity?) {
         if (shouldEventBeHandled(world, attacker, killed)) {
