@@ -51,6 +51,5 @@ class SoulCaptureEnchantment : Enchantment(
             contract { returns(true) implies (world != null && attacker != null && killed != null && attacker is PlayerEntity) }
             return world != null && attacker != null && killed != null && attacker is PlayerEntity
         }
-
     }
 }
